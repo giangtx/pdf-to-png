@@ -1,6 +1,6 @@
 # pdf-to-png
 
-buid: npm install or yarn
+build: npm install or yarn
 
 push pdf to input folder
 
