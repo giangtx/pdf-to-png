@@ -107,3 +107,7 @@ typings/
 
 # visual code
 .vscode
+
+/input
+
+/output

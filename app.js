@@ -19,8 +19,10 @@ fs.readdirSync('./input').forEach((file) => {
         if (error) { console.error("Error: " + error);
       }
     });
+  }).catch(function (e) {
+    console.log(e);
   });
   if (index % 50 == 0) {
-    console.log('resolved: ' + index )
+    console.log('resolved: ' + index)
   }
 })
