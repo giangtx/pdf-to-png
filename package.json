@@ -1,0 +1,15 @@
+{
+  "name": "helloworld",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "pkg": {
+    "assets": [ "node_modules/**/*"],
+    "targets": [ "node12-macos-x64", "node10-win-x64" ]
+  },
+  "dependencies": {
+    "pdf-img-convert": "^1.1.1"
+  }
+}
